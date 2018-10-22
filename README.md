@@ -7,8 +7,7 @@ _by Karla Osorno_
 _Git and Github are both similar but they have small differences_  
 **Git:**
 * Git _doesn't_ need Github in order to function correctly
-* It's a version control that keeps "snapshots" of you code. What does this mean? This means that 
-it will keep your exact code saved.
+* It's a version control that keeps "snapshots" of you code. What does this mean? This means that it will keep your exact code saved.
 * Git runs in the command line
 * Basic Git workflow:
     * There are folders that contain files
@@ -22,6 +21,7 @@ it will keep your exact code saved.
 * It keeps track of your snapshots or "commits"
 * GitHub is a website where you can publish your repositories and collaborate with other people
 * Github _requires_ Git
+
 
 ---
 ### Initial Setup
@@ -42,7 +42,12 @@ _Before you can start using Git in your workspace you will need to do the inital
 
 ---
 ### Repository Setup
-
+1. Go to GitHub.com and click on the plus sign in the top right corner. Click on new repository.
+2. Pick a title for your repository. Remember that instead of spaces, you should use a dash (-). The name that you put on GitHub
+ has be also be the _exact_ same name as the repository name on Cloud9.
+3. Pick from public or private. Check "**Initialize this repository with a README**". Finally click create repository.
+4. Now it's time to add a remote. A remote is what creates the connection between your "local machine" and the "cloud".
+5. You can add your remote by typing `git remote add origin <URL>`
 
 
 ---
