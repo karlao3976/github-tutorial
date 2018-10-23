@@ -74,8 +74,8 @@ Also do _not_ write your message in past tense. (Example: if you edited your rea
 ---
 ### Rolling Back Changes
 _Sometimes there are moments where you make a mistake, such as commiting or adding something you didn't mean to. How can we undo this?_
-* `git checkout -- <filename>` to undo an edit
-* `git reset HEAD <filename>` to undo an add
-* `git reset --soft HEAD~1` to undo a commit
-* `git reset HEAD~1` to go from a commit to edit
-* `git reset --hard HEAD~1` to go from a commit to before an edit (back to nothing)
+* You can use `git checkout -- <filename>` to undo an edit
+* You can use `git reset HEAD <filename>` to undo an add
+* You can use `git reset --soft HEAD~1` to undo a commit
+* You can use `git reset HEAD~1` to go from a commit to edit
+* You can use `git reset --hard HEAD~1` to go from a commit to before an edit (back to nothing)
